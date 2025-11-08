@@ -14,7 +14,7 @@ app.use(express.json());
 const config = {
   user: "SacPolisson9806",      // Remplace par ton utilisateur SQL
   password: "Pokemon12****",           // Remplace par ton mot de passe SQL
-  server: "sql.bsite.net\MSSQL2016",           // ou IP de ton serveur SQL
+  server: "sql.bsite.net\\MSSQL2016",           // ou IP de ton serveur SQL
   database: "sacpolisson9806_datahubejeuxreact",   // Nom de ta base
   options: {
     encrypt: false,
