@@ -7,12 +7,12 @@ const cors = require("cors");
 const app = express();
 
 // Middleware
-app.use(cors({ origin: "http://localhost:3000" })); // React
+app.use(cors({ origin: "http://localhost:5173" })); // React
 app.use(express.json());
 
 // 🔹 Config SQL Server
 const config = {
-  user: "SacPolisson9806",      // Remplace par ton utilisateur SQL
+  user: "sacpolisson9806_datahubejeuxreact",      // Remplace par ton utilisateur SQL
   password: "Pokemon12****",           // Remplace par ton mot de passe SQL
   server: "sql.bsite.net\\MSSQL2016",           // ou IP de ton serveur SQL
   database: "sacpolisson9806_datahubejeuxreact",   // Nom de ta base
